@@ -2,25 +2,25 @@
 <html lang="zh-cn">
 <head>
 	<meta charset="UTF-8" />
-	<title>吉U·家居 | 吉优家居 | 吉优寝具 - 吉优家居有限公司</title>
-    <meta name="keywords" content="吉优家居,吉优寝具,吉U·家居" />
-    <meta name="description" content="吉优家居有限公司是一家集设计、研发、生产、销售一体化的软体企业。公司自2005年创立以来，经过十多年的不懈努力产品销售遍布西北、西南、华中、华北及多个地区。" />
+	<title>{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="description" content="{dede:global.cfg_description/}" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
     <meta name="copyright" content="Copyright dedecms51.com 版权所有" />
-    <link href="/templets/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="{dede:global.cfg_templeturl/}/Content/bootstrap.min.css" rel="stylesheet" />
     
-    <link href="/templets/Content/index.min.css" rel="stylesheet" />
+    <link href="{dede:global.cfg_templeturl/}/Content/index.min.css" rel="stylesheet" />
     <!--[if lt IE 9]>
-    <script src="/templets/Scripts/html5shiv.min.js"></script>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/html5shiv.min.js"></script>
     <![endif]-->
-    <script src="/templets/Scripts/jquery.min.js"></script>
-    <script src="/templets/Scripts/index.min.js"></script>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/jquery.min.js"></script>
+    <script src="{dede:global.cfg_templeturl/}/Scripts/index.min.js"></script>
 </head>
 
 <body>
     <header>
         <div class="logo">
-          <img src="/templets/Picture/logo.png" alt="吉U·家居 | 吉优家居 | 吉优寝具 - 吉优家居有限公司" class="img-responsive" />
+          <img src="{dede:global.cfg_templeturl/}/Picture/logo.png" alt="{dede:global.cfg_webname/}" class="img-responsive" />
         </div>
         <!-- <strong class="words">专注沙发软床</strong> -->
         <nav class="menu">
@@ -34,10 +34,10 @@
           </ul>
         </nav>
         <div class="hotline">
-          <a href="tel:028－36773377" title="免费咨询热线"><span>028－36773377</span></a><u></u>
+          <a href="tel:{dede:global.tell/}" title="免费咨询热线"><span>{dede:global.tell/}</span></a><u></u>
         </div>
         <div class="menu-icon">
-  			<a href="tel:028－36773377" title="点击直拨热线"><span class="glyphicon glyphicon-earphone"></span></a>
+  			<a href="tel:{dede:global.tell/}" title="点击直拨热线"><span class="glyphicon glyphicon-earphone"></span></a>
             <span class="glyphicon glyphicon-th-large"></span>
         </div>
     </header>
@@ -77,8 +77,9 @@
             	<span>NEWS :</span>
                 <a href="/a/news/" title="更多文章动态" class="more" target="_blank">more</a>
                 <ul>
-                   <li><a href="/a/news/company/2017/0715/55.html" target="_blank" title="吉优家居企业简介">吉优家居企业简介...</a></li>
-
+                   {dede:arclist row='5' titlelen='50' typeid='2'}
+                	<li><a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]...</a></li>
+                   {/dede:arclist}
                 </ul>
             </div>
             <div class="guide"></div>
@@ -121,22 +122,13 @@
         </div>
         <div class="swiper-container items">
            <div class="swiper-wrapper">
-                 <div class="swiper-slide">
-                    <a href="/a/product/chuangdianxilie/2020/0715/102.html" target="_blank">
-                    <img src="/uploads/allimg/200715/1-200G5151926240.jpg" alt="吉优·床垫·抗静电2号" />
-                    <p>吉优家居<br /><strong>吉优·床垫·抗静电2号</strong><br />吉优家居,床垫系列</p></a>
+                 {dede:arclist row='3' titlelen='30' typeid='1'}
+                  <div class="swiper-slide">
+                    <a href="[field:arcurl/]" target="_blank">
+                    <img src="[field:litpic/]" alt="[field:title/]" />
+                    <p>吉优家居<br /><strong>[field:title/]</strong><br />[field:id function=GetTags(@me)/]</p></a>
                   </div>
-<div class="swiper-slide">
-                    <a href="/a/product/piyixilie/2020/0715/76.html" target="_blank">
-                    <img src="/uploads/allimg/200715/1-200G5143R3E5.jpg" alt="吉优·皮艺8621#" />
-                    <p>吉优家居<br /><strong>吉优·皮艺8621#</strong><br />吉优家居,皮艺系列</p></a>
-                  </div>
-<div class="swiper-slide">
-                    <a href="/a/product/buyixilie/2020/0715/84.html" target="_blank">
-                    <img src="/uploads/allimg/200715/1-200G5145J64M.jpg" alt="吉优·布艺8617#" />
-                    <p>吉优家居<br /><strong>吉优·布艺8617#</strong><br />吉优家居,布艺系列</p></a>
-                  </div>
-
+                  {/dede:arclist}
            </div>
         </div>
         <a href="/a/product/" title="欣赏更多产品" class="more" target="_blank">MORE</a>
@@ -204,13 +196,13 @@
     <section class="contact">
     	<div class="box">
         	<div class="above">
-            	<div class="wechat"><img src="/templets/Picture/wechat_code.jpg" alt="扫描关注吉优家居微信公众账号" /></div>
+            	<div class="wechat"><img src="{dede:global.cfg_templeturl/}/Picture/wechat_code.jpg" alt="扫描关注吉优家居微信公众账号" /></div>
                 <div class="left">
                 <span style="font-weight: bold;font-size: 20px;">深圳吉优家居有限公司</span>
-                	<a href="tel:028－36773377" title="吉优家居咨询热线" class="tel"></a>
+                	<a href="tel:{dede:global.tell/}" title="吉优家居咨询热线" class="tel"></a>
                     <p>
                     联系电话：<br />
-                    028－36773377（全国客服热线）<br />
+                    {dede:global.tell/}（全国客服热线）<br />
                     028 - 87436722（成都八益门店）<br />
                     西南生产基地：成都<u>·</u>天府新区视高工业园 <br />
                     吉优总部：深圳<u>·</u>福田岗厦社区彩田南路3002号 <br />                    
@@ -227,25 +219,6 @@
         </div>
     </section>
     
-    <div class="dock">
-        <ul class="icons">
-        	<li class="up"><i></i></li>
-            <li class="tel">
-            	<i></i><p>咨询热线：<br />028-36773377<br />028-87436722</p>
-            </li>
-            <li class="im">
-            	<i></i><p>吉优在线沟通<a href="http://wpa.qq.com/msgrd?v=3&uin=2150369019&site=吉优客服&menu=yes" target="_blank">QQ咨询</a></p>
-            </li>
-            <li class="wechat">
-            	<i></i><p><img src="/templets/Picture/wechat_code.jpg" alt="扫描关注吉优家居微信公众账号" /></p>
-            </li>
-            <li class="down"><i></i></li>
-        </ul>
-        <a class="switch"></a>
-    </div>
-    
-    <div style="display:none;">
-        <script language="javascript" type="text/javascript" src="//js.users.51.la/19238656.js"></script>
-    </div> 
+{dede:include filename="dock.htm"/}
 </body>
 </html>
