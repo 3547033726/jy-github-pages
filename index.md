@@ -1,4 +1,251 @@
----
-title: Welcome to my blog
----
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>吉U·家居 | 吉优家居 | 吉优寝具 - 吉优家居有限公司</title>
+    <meta name="keywords" content="吉优家居,吉优寝具,吉U·家居" />
+    <meta name="description" content="吉优家居有限公司是一家集设计、研发、生产、销售一体化的软体企业。公司自2005年创立以来，经过十多年的不懈努力产品销售遍布西北、西南、华中、华北及多个地区。" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+    <meta name="copyright" content="Copyright dedecms51.com 版权所有" />
+    <link href="/templets/Content/bootstrap.min.css" rel="stylesheet" />
+    
+    <link href="/templets/Content/index.min.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <script src="/templets/Scripts/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="/templets/Scripts/jquery.min.js"></script>
+    <script src="/templets/Scripts/index.min.js"></script>
+</head>
 
+<body>
+    <header>
+        <div class="logo">
+          <img src="/templets/Picture/logo.png" alt="吉U·家居 | 吉优家居 | 吉优寝具 - 吉优家居有限公司" class="img-responsive" />
+        </div>
+        <!-- <strong class="words">专注沙发软床</strong> -->
+        <nav class="menu">
+          <ul class="list-inline">
+            <li class="active"><a>首页</a></li>
+            <li><a>品牌介绍</a></li>
+            <li><a>产品中心</a></li>
+            <li><a>吉优标准</a></li>
+            <li><a>关于吉优</a></li>
+            <li><a>联系我们</a></li>
+          </ul>
+        </nav>
+        <div class="hotline">
+          <a href="tel:028－36773377" title="免费咨询热线"><span>028－36773377</span></a><u></u>
+        </div>
+        <div class="menu-icon">
+  			<a href="tel:028－36773377" title="点击直拨热线"><span class="glyphicon glyphicon-earphone"></span></a>
+            <span class="glyphicon glyphicon-th-large"></span>
+        </div>
+    </header>
+    
+    <div class="welcome"><p><u>正在加载 . . .</u></p></div>
+    
+    <section class="video">
+    	<div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide nth1">
+                <div class="box">
+                  <div class="left"></div>
+                  <div class="right">
+                	<span>19年专注沙发软床制造</span><i></i>
+                    <p><!-- 吉U寝具 · 佳美斯 <br />-->从心出发，为爱筑家！<br />
+                    始于 2005 - 2024 展望未来 <!-- <br />专注于设计研发，专业于用户体验 --> </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide nth2">
+              	<div class="box">
+                	<span>设计控，也醉了</span><i></i>
+                    <p>不是非要高大上，只是醉心于沙发软床设计<br />我们想要好过上一个方案</p>
+                </div>
+              </div>
+              <div class="swiper-slide nth3">
+              	<div class="box">
+                  <div class="top">技术派，论创新</div>
+                  <div class="mid"></div>
+                  <div class="bottom">我说，业界没有最好的技术<br />只有最棒的制造工人</div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="innerBox">
+        	<div class="news">
+            	<span>NEWS :</span>
+                <a href="/a/news/" title="更多文章动态" class="more" target="_blank">more</a>
+                <ul>
+                   <li><a href="/a/news/company/2017/0715/55.html" target="_blank" title="吉优家居企业简介">吉优家居企业简介...</a></li>
+
+                </ul>
+            </div>
+            <div class="guide"></div>
+            <a class="movedown"></a>
+        </div>
+    </section>
+    
+    <section class="business">
+      <div class="box">
+        <div class="caption">
+        	<i></i><span>品牌介绍</span>
+            <br class="clear" />
+        </div>
+        <ul class="items list-inline">
+        	<li class="pc" style="cursor:pointer"  target="_blank" onClick="javascript:location.href='/a/news/company/2017/0715/55.html'">
+            	<i></i><strong>吉优品质</strong>
+                <p>卓越品质、合理价格、优质服务！<br />……………………………………</p>
+            </li>
+            <li class="mobi" style="cursor:pointer"  target="_blank" onClick="javascript:location.href='/a/news/company/2017/0715/55.html'">
+            	<i></i><strong>品牌释义</strong>
+                <p>吉：幸福美满；优：优裕安逸！<br />………………………………</p>
+            </li>
+            <li class="sys" style="cursor:pointer"  target="_blank" onClick="javascript:location.href='/a/news/company/2017/0715/55.html'">
+            	<i></i><strong>四大系列</strong>
+                <p>皮艺系列 & 布艺系列<br />床垫系列 & 卧室配套系列<br />………………………………</p>
+            </li>
+            <li class="app" style="cursor:pointer"  target="_blank" onClick="javascript:location.href='/a/news/company/2017/0715/55.html'">
+            	<i></i><strong>吉优口号</strong>
+                <p>从心出发，为爱筑家！<br />………………………………</p>
+            </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="cases">
+      <div class="box">
+    	<div class="caption">
+        	<i></i><span>吉优产品中心</span>
+            <br class="clear" />
+        </div>
+        <div class="swiper-container items">
+           <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                    <a href="/a/product/chuangdianxilie/2020/0715/102.html" target="_blank">
+                    <img src="/uploads/allimg/200715/1-200G5151926240.jpg" alt="吉优·床垫·抗静电2号" />
+                    <p>吉优家居<br /><strong>吉优·床垫·抗静电2号</strong><br />吉优家居,床垫系列</p></a>
+                  </div>
+<div class="swiper-slide">
+                    <a href="/a/product/piyixilie/2020/0715/76.html" target="_blank">
+                    <img src="/uploads/allimg/200715/1-200G5143R3E5.jpg" alt="吉优·皮艺8621#" />
+                    <p>吉优家居<br /><strong>吉优·皮艺8621#</strong><br />吉优家居,皮艺系列</p></a>
+                  </div>
+<div class="swiper-slide">
+                    <a href="/a/product/buyixilie/2020/0715/84.html" target="_blank">
+                    <img src="/uploads/allimg/200715/1-200G5145J64M.jpg" alt="吉优·布艺8617#" />
+                    <p>吉优家居<br /><strong>吉优·布艺8617#</strong><br />吉优家居,布艺系列</p></a>
+                  </div>
+
+           </div>
+        </div>
+        <a href="/a/product/" title="欣赏更多产品" class="more" target="_blank">MORE</a>
+      </div>
+    </section>
+    
+    <section class="clients">
+   	  <div class="box">
+    	<div class="caption">
+        	<i></i><span>吉优家居产品<br>全国统一标准，彰显专属尊贵品味</span>
+            <br class="clear" />
+        </div>
+        <ul class="items list-inline">
+        	<li class="cctv"><span>吉优家居产品1</span></li>
+            <li class="unicom"><span>吉优家居产品2</span></li>
+            <li class="tsinghua"><span>吉优家居产品3</span></li>
+            <li class="cas"><span>吉优家居产品4</span></li>
+            <li class="sipo"><span>吉优家居产品5</span></li>
+            <li class="apple"><span>吉优家居产品6</span></li>
+            <li class="das"><span>吉优家居产品7</span></li>
+            <li class="hunantv"><span>吉优家居产品8</span></li>
+            <li class="sino"><span>吉优家居产品9</span></li>
+            <li class="report"><span>吉优家居产品10</span></li>
+            <li class="gedu"><span>吉优家居产品11</span></li>
+            <li class="bgg"><span>吉优家居产品12</span></li>
+            <li class="bsec"><span>吉优家居产品13</span></li>
+            <li class="huadan"><span>吉优家居产品14</span></li>
+            <li class="zd"><span>吉优家居产品15</span></li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="aboutus">
+    	<ul class="menu"><li>简介</li><li>品牌</li><li>愿景</li></ul>
+        <div class="swiper-container items">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide nth1">
+                <strong>吉优简介</strong>
+                <p>吉优家居是一家集设计、研发、生产、销售一体化的软体家具企业。公司自2005年成立伊始经过十多年的深耕细作、不断努力创新，走品牌化发展道路，产品销售遍布西南、华中、华北及西北各个地区，设有多家专卖店，蠃得全国中、高端客户的认可和业界的推崇。</p><p>公司秉承着：视“卓越品质、合理价格、优质服务“为己任，<br>整合创新、继往开来，做精品家居，创百年吉优……</p>
+                <u><a href="/a/news/company/2017/0715/55.html" title="查看更多吉优简介" class="more" target="_blank">MORE>></a></u>
+              </div>
+              <div class="swiper-slide nth2">
+              	<strong>吉优品牌</strong>               
+                <p>吉优家居是软床行业内公认的最早坚持原创设计，“以设计为先导，以人为本，打造健康睡眠文化，引领国内寝具消费潮流是吉优早期提出来的产品研发团队，吸纳了国内及意大利等优秀设计师加盟，为此吉优专门成立了自己的设计建立了一支近30人的设计师团队，投入了巨额研发经费进行寝具产品的开发，使吉优保持了强大的产品竞争力，每一款产品都有独特性和适用性”。</p>
+              </div>
+              <div class="swiper-slide nth3">
+              	<strong>吉优愿景</strong>
+                <ul>
+                  <li>树立客户满意、整合创新；</li>
+                  <li>合作共赢的企业核心价值观；</li>
+                  <li>做精品家居，创百年吉优；</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <table class="exp">
+        	<tr>
+              <td><u>2005</u>年公司创立</td>
+              <td><u>19</u>年的发展</td>
+              <td><u>4</u>大核心品牌系列</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section class="contact">
+    	<div class="box">
+        	<div class="above">
+            	<div class="wechat"><img src="/templets/Picture/wechat_code.jpg" alt="扫描关注吉优家居微信公众账号" /></div>
+                <div class="left">
+                <span style="font-weight: bold;font-size: 20px;">深圳吉优家居有限公司</span>
+                	<a href="tel:028－36773377" title="吉优家居咨询热线" class="tel"></a>
+                    <p>
+                    联系电话：<br />
+                    028－36773377（全国客服热线）<br />
+                    028 - 87436722（成都八益门店）<br />
+                    西南生产基地：成都<u>·</u>天府新区视高工业园 <br />
+                    吉优总部：深圳<u>·</u>福田岗厦社区彩田南路3002号 <br />                    
+                    成都门店：成都<u>·</u>八益家具城沙发城D座2018号
+                    </p>
+                </div>
+                <div class="right">
+                	Email：Service@geiouhome.com<br />
+                  百度搜索：吉优家居<u>/</u>www.geiouhome.com<br />
+                  Copyright © 2017-2024<u></u>吉优家居 版权所有<br />
+                  <a href="http://www.beian.miit.gov.cn" rel="nofollow" target="_blank">粤ICP备18111578号</a><br />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="dock">
+        <ul class="icons">
+        	<li class="up"><i></i></li>
+            <li class="tel">
+            	<i></i><p>咨询热线：<br />028-36773377<br />028-87436722</p>
+            </li>
+            <li class="im">
+            	<i></i><p>吉优在线沟通<a href="http://wpa.qq.com/msgrd?v=3&uin=2150369019&site=吉优客服&menu=yes" target="_blank">QQ咨询</a></p>
+            </li>
+            <li class="wechat">
+            	<i></i><p><img src="/templets/Picture/wechat_code.jpg" alt="扫描关注吉优家居微信公众账号" /></p>
+            </li>
+            <li class="down"><i></i></li>
+        </ul>
+        <a class="switch"></a>
+    </div>
+    
+    <div style="display:none;">
+        <script language="javascript" type="text/javascript" src="//js.users.51.la/19238656.js"></script>
+    </div> 
+</body>
+</html>
